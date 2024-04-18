@@ -1,0 +1,7 @@
+<p>users works!</p>
+<div *ngFor=" let user of Users">
+    {{user.id}} 
+    {{user.email}}<br>
+    {{user.password}}
+    <img [src]="user.avatar" width="100px" height="100px">
+</div>
